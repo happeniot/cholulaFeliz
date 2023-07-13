@@ -10,26 +10,45 @@
     <link rel="stylesheet" href="css/font/flaticon.css">
     <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/buttons.css">
     <link rel="icon" href="assets/cf_logo.jpeg">
     <title>Bar de Jugos | Cholula Feliz</title>
     <script src="https://kit.fontawesome.com/81da2a282c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-              <nav>
-                <div class="nav-menu">
-                  <a class="nav-item" href="#home">Home</a>
-                  <a class="nav-item" href="#jugos">Jugos</a>
-                  <a class="nav-item" href="#licuados">Licuados</a>
-                  <a class="nav-item" href="#cocteleria">Coctelería</a>
-                  <a class="nav-item" href="#bc">Bebidas Calientes</a>
-                  <a class="nav-item" href="#alimentos">Alimentos</a>
-                </div>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                  </div>
-              </nav>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#home"></a>
+            </div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jugos">Jugos</a></li>
+                <li><a href="#licuados">Licuados</a></li>
+                <li><a href="#cocteleria">Coctelería</a></li>
+                <li><a href="#bc">Bebidas Calientes</a></li>
+                <li><a href="#alimentos">Alimentos</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100092041325643&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://goo.gl/maps/9VZRPvgJq46Ed3ic6" target="_blank"><i class="fa-solid fa-location-dot"></i></a></li>
+            </ul>
+            <a href="https://wa.me/5212212183284" target="_blank" class="action_btn"><i class="fa-brands fa-whatsapp"></i>  ¡Haz tu pedido!</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="#home">Home</a></li>
+                <li><a href="#jugos">Jugos</a></li>
+                <li><a href="#licuados">Licuados</a></li>
+                <li><a href="#cocteleria">Coctelería</a></li>
+                <li><a href="#bc">Bebidas Calientes</a></li>
+                <li><a href="#alimentos">Alimentos</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100092041325643&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i> ¡Síguenos en Facebook!</a></li>
+                <li><a href="https://goo.gl/maps/9VZRPvgJq46Ed3ic6" target="_blank"><i class="fa-solid fa-location-dot"></i> ¡Encuéntranos en Google Maps!</a></li>
+                <li><a href="https://wa.me/5212212183284" target="_blank" class="action_btn"><i class="fa-brands fa-whatsapp"></i>  ¡Haz tu pedido!</a></li>
+        </div>
+    </header>
+              
     <main class="blogs-main">
         <section class="blogs-news-container">
             <div class="grid-container blogs-main-new" id="home">
@@ -45,16 +64,12 @@
                 </div>
             </div>
         </section>
+
         <section class="blogs-posts-container">
             <div class="grid-container">
                 <h3 class="menu">
                     ¡Conoce nuestro menú!
                 </h3>
-                <!--<div class="floating-container">
-                    <div class="floating-button">
-                        <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>  
-                    </div>
-                </div>-->
                 <!--Jugos-->
                 <h3 class="menu-categories" id="jugos">
                     Jugos | Simples o Combinados
