@@ -137,6 +137,7 @@ header {
 
   .dropdown_menu {
     display: block;
+    background: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -144,5 +145,6 @@ header {
   .dropdown_menu {
     left: 2rem;
     width: unset;
+    background: rgba(255, 255, 255, 0.1);
   }
 }
