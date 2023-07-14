@@ -101,9 +101,12 @@ header {
   top: 60px;
   height: 0;
   width: 300px;
+  /*background: rgba(130, 196, 28, 1);*/
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
-  border-radius: 10px;
+  -webkit-backdrop-filter: blur(15px);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -137,7 +140,6 @@ header {
 
   .dropdown_menu {
     display: block;
-    background: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -145,6 +147,5 @@ header {
   .dropdown_menu {
     left: 2rem;
     width: unset;
-    background: rgba(255, 255, 255, 0.1);
   }
 }
